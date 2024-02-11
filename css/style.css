@@ -25,10 +25,6 @@
 7. Footer */
 
 
-/*------------------------------------------------------------------------------------------*/
-/* 1. Defaults & Reset of specific styles across browsers */
-/*------------------------------------------------------------------------------------------*/
-
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -133,7 +129,7 @@ figure {
 }
 
 
-/* --------- 1.1 Input Elements ---------- */
+/* --------- 1.1 entrada dos elementos ---------- */
 
 input, textarea {
     border: 1px solid #e1e1e1;
@@ -245,17 +241,21 @@ section {
 
 }
 .fotos-midia img {
-   width: 500px;
+   width: 400px;
    /* max-width: 100% ; */
 }
 
 .col-parcerias {
-    margin-left: 2%;
+    /* margin-left: 2px; */
+   width: 100%;
+}
+.col-parcerias h2 {
+    text-align: left;
    width: 100%;
 }
 
 .centralizar-parcerias {
-    padding: 2%;
+    /* padding: 2%; */
     width: 100%;
 }
 
@@ -263,10 +263,10 @@ section {
 .col-kovver {
     text-align: center;
     margin-top: -50px;
-    margin-left: 5%;
-    margin-right: 10%;
-    width:  500px;
-    max-width: 100%;
+    /* margin-left: 5%; */
+    /* margin-right: 10%; */
+    width:  100%;
+    /* max-width: 100%; */
 
 }
 .video-kovver {
@@ -288,11 +288,11 @@ section {
 /* style phenyx */
 .col-phenyx {
     text-align: center;
-    margin-top: -68px;
-    margin-left: 5%;
-    
-    width: 500px;
-    max-width: 100%;
+    margin-top: -50px;
+    /* margin-left: 5%; */
+    /* margin-right: 10%; */
+    width:  100%;
+    /* max-width: 100%; */
 }
 .video-phenyxpro {
     position: relative;
@@ -330,17 +330,11 @@ section {
     height: auto;
 }
 .video-equipamento {
-    margin-top: 50px;
-    /* margin-left: 10%; */
-    margin-right: 0;
-    width: 400px;
-    /* max-width: 100%; */
-     height: 229px;
-    max-height: 100%;
-    /* position: relative;
-    width: 40%; 
-    padding-bottom: 1%; 
-    margin: 0 auto;  */
+    position: relative;
+    width: 80%; 
+    height: auto;
+    padding-top: 100px; 
+    margin: 0 auto; 
 }
 .video-equipamento iframe {
     position: absolute;
