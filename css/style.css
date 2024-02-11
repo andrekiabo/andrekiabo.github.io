@@ -170,9 +170,7 @@ input:focus, textarea:focus {
     outline: none;
 }
 
-/*------------------------------------------------------------------------------------------*/
 /* 2. Layout Elements */
-/*------------------------------------------------------------------------------------------*/
 
 section {
     clear: both;
@@ -574,7 +572,7 @@ section {
     box-sizing: content-box;
 }
 
-.play-icon:before {
+/* .play-icon:before {
     font-family: 'fontawesome';
     content: '\f144';
     speak: none;
@@ -587,14 +585,14 @@ section {
     display: block;
     -webkit-font-smoothing: antialiased;
     color:#fff;
-}
+} */
 
-.play-video .play-icon {
+/* .play-video .play-icon {
     background: rgba(255, 255, 255, 0.5);
     -webkit-transition: -webkit-transform ease-out 0.3s, background 0.4s;
     -moz-transition: -moz-transform ease-out 0.3s, background 0.4s;
     transition: transform ease-out 0.3s, background 0.4s;
-}
+} */
 
 .play-video .play-icon:after {
     top: 0;
@@ -845,14 +843,14 @@ img {
     margin: 0 auto;
 }
 
-a img {
+/* a img {
     border: none;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     -webkit-backface-visibility: hidden;
-}
+} */
 
 a img:hover {
     opacity: 0.7;
@@ -1141,12 +1139,12 @@ blockquote {
     overflow: hidden;
 }
 
-#gallery a:hover img {
+/* #gallery a:hover img {
     opacity: 0.15;
     -moz-backface-visibility: hidden;
-}
+} */
 
-#gallery a:before {
+/* #gallery a:before {
     font-size: 2.2em;
     font-style: normal;
     font-weight: normal;
@@ -1166,7 +1164,7 @@ blockquote {
     -moz-transition: all .2s linear;
     transition: all .2s linear;
     vertical-align: middle;
-}
+} */
 
 #gallery a:hover:before {
     opacity: 1;
@@ -1546,7 +1544,7 @@ blockquote {
     padding: 15px 25px;
 }
 
-.client-overlay {
+/* .client-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     top;
@@ -1561,7 +1559,7 @@ blockquote {
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-}
+} */
 
 #clients a:hover .client-overlay {
     opacity: 1;
